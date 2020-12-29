@@ -7,7 +7,7 @@ File Summary:
   
   readerwritter.c: This file contains the definition for the locks that will be used by the threads of the process. This is achieved by making use of the semaphore library.
   
-  scenarioGenerator: This CPP file can be used to generate a certain amount of arbitrary cases which define what each of the threads will be doing. For example, it could generate a line which looks like "rrwrwwrr", then the executable from the readerwritter.c would use this text file and assign 5 reading threads and 3 writing threads.
+  scenarioGenerator: This CPP file can be used to generate a certain amount of arbitrary cases which define what each of the threads will be doing. For example, it could generate a line which looks like "rrwrwwrr", then the executable from the main.c would use this text file and assign 5 reading threads and 3 writing threads.
   
   makefile: Defines how to compile and link the object files. Use this to easily attain the executable by typing "make" on the terminal.
   
